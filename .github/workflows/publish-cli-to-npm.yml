@@ -9,6 +9,7 @@ on:
 
 jobs:
     publish-cli:
+        if: github.repository == 'finos/calm'
         runs-on: ubuntu-latest
         steps:
             # Checkout the code

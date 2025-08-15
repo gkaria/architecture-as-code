@@ -17,6 +17,7 @@ env:
 
 jobs:
     scan:
+        if: github.repository == 'finos/calm'
         runs-on: ubuntu-latest
         strategy:
             matrix:
