@@ -11,6 +11,7 @@ on:
 
 jobs:
     sync-to-s3:
+        if: github.repository == 'finos/calm'
         runs-on: ubuntu-latest
         defaults:
             run:
